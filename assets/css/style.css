@@ -317,7 +317,7 @@ main {
 \*-----------------------------------*/
 
 .sidebar {
-  width: 300px;
+  width: 400px;
   margin-bottom: 15px;
   max-height: 112px;
   overflow: visible;
@@ -414,8 +414,8 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  max-width: calc(100% - 50px);
+  width: calc(100% - 50px);
 }
 
 .contact-title {
@@ -427,10 +427,10 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: var(--fs-6);
 }
 
-.contact-info address { font-style: normal; }
+.contact-info address { font-style:normal; }
 
 .social-list {
   display: flex;
@@ -1246,6 +1246,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1268,6 +1269,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * CUSTOM PROPERTY
    */
+   .sidebar { width: 700px; }
 
   :root {
 
@@ -1292,7 +1294,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 600px;
+    width: 650px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1372,7 +1374,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info {
     max-width: calc(100% - 64px);
-    width: calc(100% - 64px);
+    width: calc(100%);
   }
 
 
@@ -1863,7 +1865,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
+    overflow:visible;
     text-overflow: ellipsis;
   }
 
